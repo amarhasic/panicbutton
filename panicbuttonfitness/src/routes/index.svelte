@@ -11,7 +11,12 @@
     let urls = ['https://i.redd.it/btuzlz1j29091.jpg', 'https://i.redd.it/cewpkth8r0091.jpg', 'https://i.redd.it/58zmkboulqa81.png',
      'https://i.redd.it/76a0rrjt8hv81.jpg', 'https://i.redd.it/qa79tah4ld281.png', 'https://i.redd.it/l6w6o2q0mccx.jpg', 'https://i.redd.it/ws87e29ohnm71.png',
       'https://i.redd.it/tndahj18a7j81.jpg', 'https://i.redd.it/jj55kt0lflc81.jpg', 'https://i.redd.it/zwwuylio95251.jpg',
-      'https://www.youtube.com/watch?v=TU7Y6HiLXto', 'https://www.youtube.com/watch?v=UNQhuFL6CWg&t', 'https://i.redd.it/zwwuylio95251.jpg'];
+      'https://www.youtube.com/watch?v=TU7Y6HiLXto', 'https://www.youtube.com/watch?v=UNQhuFL6CWg&t', 'https://i.redd.it/zwwuylio95251.jpg', 
+      'https://pbs.twimg.com/media/EvvYJIYWEAApnni?format=jpg&name=large', 'https://pbs.twimg.com/media/FUatHC6WYAIvWKg?format=jpg&name=medium', 
+      'https://pbs.twimg.com/media/FePEMZFaEAEk4i9?format=jpg&name=medium', 'https://i.redd.it/56wkrudn71o91.jpg', 'https://i.redd.it/hxeaxednp6r91.jpg', 
+      'https://i.redd.it/3o1rzz1vybm91.jpg', 'https://i.redd.it/h7qw4odimqr91.jpg', 'https://i.redd.it/8qtwkehdd2p91.jpg', 'https://i.redd.it/nhswjdpj6on91.jpg',
+       'https://i.redd.it/qcst03bct9n91.jpg', 'https://i.redd.it/9pgb15frszq91.jpg', 'https://i.redd.it/ljnd12tumap91.jpg', 
+       'https://www.azquotes.com/picture-quotes/quote-in-the-midst-of-winter-i-found-there-was-within-me-an-invincible-summer-and-that-makes-albert-camus-47-22-23.jpg'];
     let url = urls[Math.floor(Math.random() * urls.length)];
 
 </script>
@@ -32,7 +37,7 @@
 <style>
     html,body {
         height: 100%;
-        background-color: #f5f5dc;
+        background-color: #E9E4D4;
 
         margin: 0;
         overflow: hidden;

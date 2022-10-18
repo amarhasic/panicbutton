@@ -14,7 +14,7 @@
       .parentDiv {
   position: absolute;
   width: 100%;
-  background-color: #E9E4D4;
+  background-color: #E9E4d4;
   color: white;
 }
 
