@@ -55,6 +55,7 @@
             font-family: 'Bebas Neue', cursive;
             font-size: 5rem;
             color: rgb(122, 28, 28);
+      
         } 
         h4 {
             font-family: 'Bebas Neue', cursive;
@@ -71,6 +72,113 @@
         -webkit-box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46); 
         box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46);
     }
+
+
+
+    @media screen and (max-width: 991px) {
+        h3 {
+            padding-top: 10vw;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3.5em;
+            text-align: center;
+           
+      
+        } 
+
+        h4 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            text-justify: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.5em;
+            text-align: center;
+            padding-bottom: 5vw;
+        }
+        
+        .theButton {
+        cursor: pointer;
+        background: #f00;
+        width: 25em;
+        height: 25em;
+        border-radius: 50%;
+        -webkit-box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46); 
+        box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46);
+        margin-bottom: 10vw;
+    }
+}
+
+    @media screen and (max-width: 767px) {
+         h3 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.8em;
+            text-justify: center;
+            color:black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        } 
+
+        h4 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            text-justify: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.1em;
+            text-align: center;
+            padding-bottom: 10%;
+        }
+        
+        .theButton {
+        cursor: pointer;
+        background: #f00;
+        width: 15em;
+        height: 15em;
+        border-radius: 50%;
+        -webkit-box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46); 
+        box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46);
+    }
+
+
+    @media screen and (max-width: 479px) {
+        h3 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.9rem;
+            text-align: center;
+      
+        } 
+        h4 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 70%;
+            text-justify: inter-cluster;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.2em;
+            text-align: center;
+            padding-bottom: 30%;
+        }
+        
+        .theButton {
+        cursor: pointer;
+        background: #f00;
+        width: 15em;
+        height: 15em;
+        border-radius: 50%;
+        -webkit-box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46); 
+        box-shadow: 15px 10px 10px 5px rgba(0,0,0,0.46);
+    }
+}
+
+
+
+
+}
+
+
 
 </style>
 <!-- END OF STYLING -->
